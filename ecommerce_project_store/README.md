@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-Commerce Clothing Site with Admin Dashboard
+
+Welcome to my e-commerce clothing site project, a modern web application designed for seamless online shopping and efficient management through an admin dashboard. This project is split into two main parts: the e-commerce website and the admin dashboard.
+
+## Overview
+
+Our e-commerce platform offers a wide range of clothing products, featuring a user-friendly interface for an enjoyable shopping experience. It's built with the latest web technologies for fast, responsive, and interactive user experiences.
+
+## Demo
+
+Try this web with an admin panel:
+- **Domain:** [https://ecommerce-project-store-zeta.vercel.app/](https://ecommerce-project-store-zeta.vercel.app/)
+- **Demo Account:**
+  - Username: `demouser`
+  - Password: `demopassword`
+
+### Technologies Used
+
+- **Frontend:** Next.js
+- **Styling:** Tailwind CSS with Shadcn/UI components
+- **Payments:** Integrated with Stripe for secure online payments
+- **Deployment:** Vercel
+
+### Features
+
+- **Billboard with Featured Products:** A dynamic display showcasing featured items and promotions.
+- **Product Categories Pages:** Organized viewing of products by categories for easier navigation.
+- **Filtering:** Users can filter products by color and size to find their perfect match.
+- **Shopping Cart:** A user-friendly cart system allowing users to review their selections before proceeding to payment.
+- **Payment Integration:** Secure checkout process powered by Stripe.
+- **Admin Dashboard Redirect:** A separate admin panel for inventory and order management, accessible directly through the website.
+
+### Admin Panel
+
+The admin dashboard, the second part of this project, provides comprehensive tools for site management, including inventory control, order processing, and analytics. Access the admin panel here:
+
+[Admin Dashboard demo](https://ecommerce-project-admin-one.vercel.app/)
+[Admin Dashboard github](https://github.com/ViktorSivek/ecommerce_project)
 
 ## Getting Started
 
-First, run the development server:
+To get started with an e-commerce store, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/ViktorSivek/ecommerce_project_store
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install dependencies**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   npm install
 
-## Learn More
+3. **Run the development server**
 
-To learn more about Next.js, take a look at the following resources:
+   Open http://localhost:3000 with your browser to see the result.
+   ```bash
+   npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
